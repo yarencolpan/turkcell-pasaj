@@ -1,0 +1,38 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+# Local env files
+.env
+.env.*
+!.env.example
+# Firebase emulator / exports / local data
+firebase-data/
+firebase-export-*/
+firebase-debug.log*
+ui-debug.log*
+
+# Local scripts / OS
+*.bat
+
+# Old backup folder (projende var)
+backup_old_vue_project/
+
+# Optional: editor / tooling
+.vscode/
